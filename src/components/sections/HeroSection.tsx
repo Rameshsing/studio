@@ -25,12 +25,11 @@ export default function HeroSection() {
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="https://placehold.co/1200x675.png"
+              src="https://images.pexels.com/photos/3182826/pexels-photo-3182826.jpeg"
               alt="HatchNest Platform Showcase"
               layout="fill"
               objectFit="cover"
               priority
-              data-ai-hint="startup workspace"
             />
              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
           </div>

@@ -8,7 +8,7 @@ const testimonials = [
     name: 'Sarah L.',
     title: 'Founder, TechStartup Co.',
     quote: "HatchNest revolutionized how we manage our projects. The collaboration tools are top-notch and have significantly boosted our team's productivity!",
-    avatarSrc: 'https://placehold.co/100x100.png',
+    avatarSrc: 'https://www.opera-online.com/media/images/avatar/performer/3684/xl_avatar.jpg',
     avatarFallback: 'SL',
     rating: 5,
     id: 'testimonial-sarah'
@@ -17,7 +17,7 @@ const testimonials = [
     name: 'John B.',
     title: 'Product Manager, Innovate Solutions',
     quote: "The analytics features are incredibly insightful. HatchNest helps us make data-driven decisions with ease. Highly recommended!",
-    avatarSrc: 'https://placehold.co/100x100.png',
+    avatarSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK3pDKuFfIWMXUbwJ0MaQH2-cVaies8JX8Xg&s',
     avatarFallback: 'JB',
     rating: 5,
     id: 'testimonial-john'
@@ -26,7 +26,7 @@ const testimonials = [
     name: 'Emily K.',
     title: 'Freelance Designer',
     quote: "As a freelancer, HatchNest keeps me organized and on track. It's intuitive, reliable, and has become an indispensable part of my workflow.",
-    avatarSrc: 'https://placehold.co/100x100.png',
+    avatarSrc: 'https://i.pinimg.com/280x280_RS/ce/91/dc/ce91dc9cfc3a9a8a33d2a4b3a793df3a.jpg',
     avatarFallback: 'EK',
     rating: 4,
     id: 'testimonial-emily'
@@ -59,7 +59,7 @@ export default function TestimonialsSection() {
                 </blockquote>
                 <div className="flex items-center mt-auto">
                   <Avatar className="h-12 w-12 mr-4">
-                    <AvatarImage src={testimonial.avatarSrc} alt={testimonial.name} data-ai-hint="person portrait" />
+                    <AvatarImage src={testimonial.avatarSrc} alt={testimonial.name} />
                     <AvatarFallback>{testimonial.avatarFallback}</AvatarFallback>
                   </Avatar>
                   <div>
